@@ -1,0 +1,11 @@
+app:
+  host: http://localhost:3000
+  antiCsrfParam: ""
+  api: ""
+  appDataType: unknown
+  riskLevel: MEDIUM
+  contactEmail: ""
+  applicationId: 87748d99-66ee-4fee-bd65-c232cf19c939
+  env: Development
+  autoPolicy: false
+  autoInputVectors: false
