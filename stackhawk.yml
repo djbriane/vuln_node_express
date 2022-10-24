@@ -1,17 +1,10 @@
-# HawkScan 2.1.1
-# Vuln Node Express Application specific config
-# Completed: 1647892848077
-
 app:
+  applicationId: ${APP_ID:}
+  env: ${APP_ENV:Development}
   host: http://localhost:3000
-  antiCsrfParam: ""
-  api: ""
-  appDataType: unknown
-  riskLevel: MEDIUM
-  contactEmail: ""
-  applicationId: 87748d99-66ee-4fee-bd65-c232cf19c939
-  env: Development
-  autoPolicy: false
-  autoInputVectors: false
+tags:
+  - name: _STACKHAWK_GIT_COMMIT_SHA
+    value: ${COMMIT_SHA:}
+  - name: _STACKHAWK_GIT_BRANCH
+    value: ${BRANCH_NAME:}
 
-  
