@@ -23,7 +23,7 @@ jobs:
          installCLIOnly: true
      - name: Run CLI Scan
        env:
-         APP_ID: ${{ secrets.HAWK_API_KEY }}
+         APP_ID: ${{ secrets.HAWK_APP_ID }}
          APP_ENV: 'Pre-Production'
          COMMIT_SHA: ${{ github.event.pull_request.head.sha }}
          BRANCH_NAME: ${{ github.head_ref }}
